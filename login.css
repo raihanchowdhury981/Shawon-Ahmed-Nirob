@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none ;
+    font-family:'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0 15px;
+    background-image:url("spmUM.gif");
+    background-size: cover;
+}
+.wrapper{
+         width: 400px;
+         height: 320px;
+         color:#000;
+         top: 50%;
+         left: 50%;
+         padding: 60px 30px;
+         position: absolute;
+         transform: translate(-50%, -50%);
+         box-sizing: border-box;
+         box-shadow: 8px 8px 50px #000;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: 'Dancing Script', cursive;
+}
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.wrapper input[type=submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(27, 146, 243);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+   }
+.singup{
+    float: right;
+}
